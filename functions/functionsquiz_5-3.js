@@ -12,6 +12,11 @@ function makeLine(length) {
 }
 
 // your code goes here.  Make sure you call makeLine() in your own code.
+function buildTriangle(height) {
+	for (let i = 1; i <= height; i++) {
+		makeLine(i);
+	}
+}
 
 // test your code by uncommenting the following line
-//console.log(buildTriangle(10));
+console.log(buildTriangle(10));
