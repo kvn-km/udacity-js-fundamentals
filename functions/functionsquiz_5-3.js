@@ -4,8 +4,8 @@
 
 // creates a line of * for a given length
 function makeLine(length) {
-	var line = "";
-	for (var j = 1; j <= length; j++) {
+	let line = "";
+	for (let j = 1; j <= length; j++) {
 		line += "* ";
 	}
 	return line + "\n";
@@ -14,7 +14,7 @@ function makeLine(length) {
 // your code goes here.  Make sure you call makeLine() in your own code.
 function buildTriangle(height) {
 	for (let i = 1; i <= height; i++) {
-		makeLine(i);
+		console.log(makeLine(i));
 	}
 }
 
